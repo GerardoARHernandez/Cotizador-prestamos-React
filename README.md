@@ -1,8 +1,22 @@
-# React + Vite
+# Cotizador de Préstamos - React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este es un proyecto de **Cotizador de Préstamos** desarrollado en React, utilizando **TailwindCSS** para los estilos. El cotizador permite a los usuarios calcular el monto total de un préstamo en función de la cantidad solicitada, el plazo de pago, y la tasa de interés.
 
-Currently, two official plugins are available:
+## Características
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Selección de la cantidad de préstamo.
+- Selección del plazo de pago.
+- Cálculo automático del total a pagar con intereses.
+- Interfaz responsiva utilizando TailwindCSS.
+
+## Tecnologías Utilizadas
+
+- **React**: Biblioteca principal para construir la interfaz de usuario.
+- **TailwindCSS**: Framework para la creación de estilos de manera rápida y eficiente.
+- **JavaScript (ES6+)**: Para manejar la lógica del cotizador.
+
+#Uso
+
+    Ingresa la cantidad que deseas solicitar.
+    Elige el plazo en meses para pagar el préstamo.
+    Obtén el cálculo instantáneo de la cantidad total a pagar, incluyendo los intereses.
